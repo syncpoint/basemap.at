@@ -176,3 +176,5 @@ Click on the __Vector__ link on the dashboard in order to view your styled vecto
 The result is beautiful and available offline:
 
 ![styled basemap](images/styled-basemap.jpg)
+
+![details](images/level-17-with-housenumbers.png)
