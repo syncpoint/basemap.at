@@ -11303,7 +11303,7 @@
             }
         },
         {
-            "id": "STRASSENNETZ/BRUECKE/GIP_OUTSIDE_BAUWERK_L_BRÜCKE/112111/1",
+            "id": "STRASSENNETZ/BRUECKE/GIP_OUTSIDE_BAUWERK_L_BRÜCKE/112111/11",
             "type": "line",
             "source": "esri",
             "source-layer": "GIP_OUTSIDE_BAUWERK_L_BRÜCKE",
@@ -11519,6 +11519,25 @@
             }
         },
         {
+            "id": "STRASSENNETZ/BRUECKE/GIP_OUTSIDE_BAUWERK_L_BRÜCKE/112111/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "GIP_OUTSIDE_BAUWERK_L_BRÜCKE",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 16,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#4D3D25",
+                "line-width": 13.3333
+            }
+        },
+        {
             "id": "STRASSENNETZ/BRUECKE/GIP_OUTSIDE_BAUWERK_L_BRÜCKE/112011 | 112019 | 112119 | 112021 | 112029 | 112121 | 112111/0",
             "type": "line",
             "source": "esri",
@@ -11577,6 +11596,26 @@
             "paint": {
                 "line-color": "#FFFFFF",
                 "line-width": 5.33333
+            }
+        },
+        {
+            "id": "STRASSENNETZ/BRUECKE/GIP_OUTSIDE_BAUWERK_L_BRÜCKE/112111/00",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "GIP_OUTSIDE_BAUWERK_L_BRÜCKE",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 16,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#FFFFFF",
+                "line-width": 10.6667
             }
         },
         {
@@ -12306,7 +12345,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 10.6667,
                 "text-letter-spacing": 0.1,
@@ -12335,7 +12374,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 10.6667,
                 "text-letter-spacing": 0.1,
@@ -12363,7 +12402,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 12,
                 "text-letter-spacing": 0.1,
@@ -12392,7 +12431,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 13.3333,
                 "text-letter-spacing": 0.1,
@@ -12421,7 +12460,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 12,
                 "text-letter-spacing": 0.1,
@@ -12450,7 +12489,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 12,
                 "text-letter-spacing": 0.1,
@@ -12479,7 +12518,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 10.6667,
                 "text-letter-spacing": 0.1,
@@ -12507,7 +12546,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 16,
                 "text-letter-spacing": 0.1,
@@ -12536,7 +12575,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 14.6667,
                 "text-letter-spacing": 0.1,
@@ -12565,7 +12604,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 16,
                 "text-letter-spacing": 0.1,
@@ -12593,7 +12632,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 18.6667,
                 "text-letter-spacing": 0.1,
@@ -12620,7 +12659,7 @@
             "maxzoom": 12,
             "layout": {
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 10.6667,
                 "text-letter-spacing": 0.1,
@@ -12647,7 +12686,7 @@
             "maxzoom": 16,
             "layout": {
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 12,
                 "text-letter-spacing": 0.1,
@@ -12674,7 +12713,7 @@
             "maxzoom": 16,
             "layout": {
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 13.3333,
                 "text-letter-spacing": 0.1,
@@ -12701,7 +12740,7 @@
             "maxzoom": 16,
             "layout": {
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 13.3333,
                 "text-letter-spacing": 0.1,
@@ -12727,7 +12766,7 @@
             "minzoom": 16,
             "layout": {
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 13.3333,
                 "text-letter-spacing": 0.1,
@@ -12753,7 +12792,7 @@
             "minzoom": 16,
             "layout": {
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 16,
                 "text-letter-spacing": 0.1,
@@ -12780,7 +12819,7 @@
             "maxzoom": 9,
             "layout": {
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 12,
                 "text-letter-spacing": 0.1,
@@ -12807,7 +12846,7 @@
             "maxzoom": 12,
             "layout": {
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 13.3333,
                 "text-letter-spacing": 0.1,
@@ -12833,7 +12872,7 @@
             "minzoom": 16,
             "layout": {
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 18.6667,
                 "text-letter-spacing": 0.1,
@@ -12862,7 +12901,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 16,
                 "text-field": "{_name1}",
@@ -12888,7 +12927,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 16,
                 "text-field": "{_name1}",
@@ -12914,7 +12953,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 16,
                 "text-field": "{_name}",
@@ -12942,7 +12981,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 16,
                 "text-field": "{_name}",
@@ -12963,7 +13002,7 @@
             "maxzoom": 15,
             "layout": {
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 9.33333,
                 "text-anchor": "bottom-left",
@@ -12989,7 +13028,7 @@
             "minzoom": 15,
             "layout": {
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 16,
                 "text-anchor": "bottom-left",
@@ -13015,7 +13054,7 @@
             "minzoom": 15,
             "layout": {
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 14.6667,
                 "text-anchor": "bottom-left",
@@ -13042,7 +13081,7 @@
             "maxzoom": 15,
             "layout": {
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 10.6667,
                 "text-anchor": "bottom-left",
@@ -13068,7 +13107,7 @@
             "minzoom": 15,
             "layout": {
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 17.3333,
                 "text-anchor": "bottom-left",
@@ -13095,7 +13134,7 @@
             "maxzoom": 15,
             "layout": {
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 12,
                 "text-anchor": "bottom-left",
@@ -13121,7 +13160,7 @@
             "minzoom": 17,
             "layout": {
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 13.3333,
                 "text-anchor": "center",
@@ -13144,7 +13183,7 @@
             "maxzoom": 17,
             "layout": {
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 10.6667,
                 "text-anchor": "center",
@@ -13166,7 +13205,7 @@
             "minzoom": 16,
             "layout": {
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 13.3333,
                 "text-anchor": "center",
@@ -13186,7 +13225,7 @@
             "maxzoom": 16,
             "layout": {
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 10.6667,
                 "text-anchor": "center",
@@ -13206,7 +13245,7 @@
             "maxzoom": 8,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 13.3333,
                 "text-anchor": "bottom-right",
@@ -13233,7 +13272,7 @@
             "maxzoom": 9,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 14.6667,
                 "text-anchor": "bottom-right",
@@ -13260,7 +13299,7 @@
             "maxzoom": 10,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 16,
                 "text-anchor": "bottom-right",
@@ -13287,7 +13326,7 @@
             "maxzoom": 11,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 17.3333,
                 "text-anchor": "bottom-right",
@@ -13314,7 +13353,7 @@
             "maxzoom": 12,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 18.6667,
                 "text-anchor": "bottom-right",
@@ -13341,7 +13380,7 @@
             "maxzoom": 13,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 20,
                 "text-anchor": "bottom-right",
@@ -13368,7 +13407,7 @@
             "maxzoom": 14,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 21.3333,
                 "text-anchor": "bottom-right",
@@ -13395,7 +13434,7 @@
             "maxzoom": 16,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 22.6667,
                 "text-anchor": "bottom-right",
@@ -13422,7 +13461,7 @@
             "maxzoom": 17,
             "layout": {
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 10.6667,
                 "text-anchor": "bottom-left",
@@ -13449,7 +13488,7 @@
             "maxzoom": 18,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 24,
                 "text-anchor": "bottom-right",
@@ -13475,7 +13514,7 @@
             "minzoom": 18,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 25.3333,
                 "text-anchor": "bottom-right",
@@ -13501,7 +13540,7 @@
             "minzoom": 15,
             "layout": {
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 12,
                 "text-anchor": "bottom-left",
@@ -13535,7 +13574,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 8,
                 "text-field": "{_name2}",
@@ -13555,7 +13594,7 @@
             "minzoom": 17,
             "layout": {
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 16,
                 "text-anchor": "bottom-left",
@@ -13589,7 +13628,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 16,
                 "text-field": "{_name3}",
@@ -13617,7 +13656,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 12,
                 "text-anchor": "bottom",
@@ -13648,7 +13687,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 10.6667,
                 "text-field": "{_name10}",
@@ -13676,7 +13715,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 12,
                 "text-field": "{_name9}",
@@ -13704,7 +13743,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 13.3333,
                 "text-field": "{_name8}",
@@ -13732,7 +13771,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 10.6667,
                 "text-field": "{_name7}",
@@ -13760,7 +13799,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 12,
                 "text-field": "{_name6}",
@@ -13788,7 +13827,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 16,
                 "text-field": "{_name5}",
@@ -13816,7 +13855,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 13.3333,
                 "text-field": "{_name4}",
@@ -13837,7 +13876,7 @@
             "maxzoom": 9,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 13.3333,
                 "text-anchor": "bottom-left",
@@ -13870,7 +13909,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 8,
                 "text-field": "{_name1}",
@@ -13898,7 +13937,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1333,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 8,
                 "text-field": "{_name}",
@@ -13925,7 +13964,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 21.3333,
                 "text-field": "{_name1}",
@@ -13950,7 +13989,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 21.3333,
                 "text-field": "{_name}",
@@ -13976,7 +14015,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Arial-Regular"
+                    "Arial Regular"
                 ],
                 "text-size": 10.6667,
                 "text-letter-spacing": 0.1,
@@ -14005,7 +14044,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Arial-Regular"
+                    "Arial Regular"
                 ],
                 "text-size": 10.6667,
                 "text-letter-spacing": 0.1,
@@ -14034,7 +14073,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Arial-Regular"
+                    "Arial Regular"
                 ],
                 "text-size": 10.6667,
                 "text-letter-spacing": 0.1,
@@ -14063,7 +14102,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Arial-Regular"
+                    "Arial Regular"
                 ],
                 "text-size": 10.6667,
                 "text-letter-spacing": 0.1,
@@ -14092,7 +14131,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Arial-Regular"
+                    "Arial Regular"
                 ],
                 "text-size": 10.6667,
                 "text-letter-spacing": 0.1,
@@ -14114,7 +14153,7 @@
             "maxzoom": 9,
             "layout": {
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 12,
                 "text-anchor": "bottom-left",
@@ -14140,7 +14179,7 @@
             "maxzoom": 15,
             "layout": {
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 16,
                 "text-anchor": "bottom-left",
@@ -14165,7 +14204,7 @@
             "minzoom": 11,
             "layout": {
                 "text-font": [
-                    "Arial-Regular"
+                    "Arial Regular"
                 ],
                 "text-size": 12,
                 "text-anchor": "center",
@@ -14186,7 +14225,7 @@
             "minzoom": 17,
             "layout": {
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 22.6667,
                 "text-anchor": "bottom-left",
@@ -14211,7 +14250,7 @@
             "minzoom": 17,
             "layout": {
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 22.6667,
                 "text-anchor": "bottom-left",
@@ -14236,7 +14275,7 @@
             "minzoom": 17,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 24,
                 "text-anchor": "bottom-left",
@@ -14262,7 +14301,7 @@
             "maxzoom": 6,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 12,
                 "text-anchor": "bottom-left",
@@ -14290,7 +14329,7 @@
             "maxzoom": 6,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 12,
                 "text-anchor": "bottom-left",
@@ -14318,7 +14357,7 @@
             "maxzoom": 10,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 18.6667,
                 "text-anchor": "bottom-left",
@@ -14346,7 +14385,7 @@
             "maxzoom": 10,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 18.6667,
                 "text-anchor": "bottom-left",
@@ -14374,7 +14413,7 @@
             "maxzoom": 14,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 24,
                 "text-anchor": "bottom-left",
@@ -14401,7 +14440,7 @@
             "minzoom": 13,
             "layout": {
                 "text-font": [
-                    "Arial-Regular"
+                    "Arial Regular"
                 ],
                 "text-size": 12,
                 "text-anchor": "center",
@@ -14422,7 +14461,7 @@
             "minzoom": 11,
             "layout": {
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 12,
                 "text-anchor": "center",
@@ -14443,7 +14482,7 @@
             "minzoom": 17,
             "layout": {
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 18.6667,
                 "text-anchor": "bottom-left",
@@ -14469,7 +14508,7 @@
             "maxzoom": 11,
             "layout": {
                 "text-font": [
-                    "Arial-Regular"
+                    "Arial Regular"
                 ],
                 "text-size": 12,
                 "text-anchor": "center",
@@ -14491,7 +14530,7 @@
             "maxzoom": 11,
             "layout": {
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 12,
                 "text-anchor": "center",
@@ -14513,7 +14552,7 @@
             "maxzoom": 16,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold Italic"
+                    "Corbel Bold Italic"
                 ],
                 "text-size": 9.33333,
                 "text-anchor": "bottom",
@@ -14559,7 +14598,7 @@
             "minzoom": 16,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold Italic"
+                    "Corbel Bold Italic"
                 ],
                 "text-size": 13.3333,
                 "text-anchor": "bottom",
@@ -14606,7 +14645,7 @@
             "maxzoom": 18,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold Italic"
+                    "Corbel Bold Italic"
                 ],
                 "text-size": 8.53333,
                 "text-anchor": "bottom-left",
@@ -14633,7 +14672,7 @@
             "maxzoom": 19,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold Italic"
+                    "Corbel Bold Italic"
                 ],
                 "text-size": 10.6667,
                 "text-anchor": "bottom-left",
@@ -14659,7 +14698,7 @@
             "minzoom": 19,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold Italic"
+                    "Corbel Bold Italic"
                 ],
                 "text-size": 12.8,
                 "text-anchor": "bottom-left",
@@ -14685,7 +14724,7 @@
             "minzoom": 18,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 12,
                 "text-anchor": "center",
@@ -14713,7 +14752,7 @@
             "minzoom": 16,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 17.3333,
                 "text-letter-spacing": 0.02,
@@ -14734,7 +14773,7 @@
             "minzoom": 17,
             "layout": {
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 21.3333,
                 "text-anchor": "bottom-left",
@@ -14759,7 +14798,7 @@
             "minzoom": 17,
             "layout": {
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 17.3333,
                 "text-anchor": "bottom-left",
@@ -14785,7 +14824,7 @@
             "maxzoom": 10,
             "layout": {
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 12,
                 "text-anchor": "bottom-left",
@@ -14817,7 +14856,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 10.6667,
                 "text-field": "{_name1}",
@@ -14838,7 +14877,7 @@
             "maxzoom": 10,
             "layout": {
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 13.3333,
                 "text-anchor": "bottom-left",
@@ -14864,7 +14903,7 @@
             "maxzoom": 10,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 13.3333,
                 "text-anchor": "bottom-left",
@@ -14890,7 +14929,7 @@
             "maxzoom": 12,
             "layout": {
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 13.3333,
                 "text-anchor": "bottom-left",
@@ -14916,7 +14955,7 @@
             "maxzoom": 12,
             "layout": {
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 12,
                 "text-anchor": "bottom-left",
@@ -14942,7 +14981,7 @@
             "maxzoom": 12,
             "layout": {
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 14.6667,
                 "text-anchor": "bottom-left",
@@ -14968,7 +15007,7 @@
             "maxzoom": 12,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 14.6667,
                 "text-anchor": "bottom-left",
@@ -14994,7 +15033,7 @@
             "maxzoom": 15,
             "layout": {
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 17.3333,
                 "text-anchor": "bottom-left",
@@ -15020,7 +15059,7 @@
             "maxzoom": 15,
             "layout": {
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 18.6667,
                 "text-anchor": "bottom-left",
@@ -15045,7 +15084,7 @@
             "minzoom": 17,
             "layout": {
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 17.3333,
                 "text-anchor": "bottom-left",
@@ -15071,7 +15110,7 @@
             "maxzoom": 15,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 21.3333,
                 "text-anchor": "bottom-left",
@@ -15097,7 +15136,7 @@
             "maxzoom": 15,
             "layout": {
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 12,
                 "text-anchor": "bottom-left",
@@ -15123,7 +15162,7 @@
             "maxzoom": 17,
             "layout": {
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 14.6667,
                 "text-anchor": "bottom-left",
@@ -15149,7 +15188,7 @@
             "maxzoom": 17,
             "layout": {
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 14.6667,
                 "text-anchor": "bottom-left",
@@ -15175,7 +15214,7 @@
             "maxzoom": 17,
             "layout": {
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 16,
                 "text-anchor": "bottom-left",
@@ -15201,7 +15240,7 @@
             "maxzoom": 17,
             "layout": {
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 20,
                 "text-anchor": "bottom-left",
@@ -15227,7 +15266,7 @@
             "maxzoom": 17,
             "layout": {
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 21.3333,
                 "text-anchor": "bottom-left",
@@ -15253,7 +15292,7 @@
             "maxzoom": 17,
             "layout": {
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 21.3333,
                 "text-anchor": "bottom-left",
@@ -15279,7 +15318,7 @@
             "maxzoom": 17,
             "layout": {
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 22.6667,
                 "text-anchor": "bottom-left",
@@ -15311,7 +15350,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 13.3333,
                 "text-field": "{_name}",
@@ -15339,7 +15378,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 8,
                 "text-field": "{_name2}",
@@ -15366,7 +15405,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 21.3333,
                 "text-field": "{_name2}",
@@ -15376,6 +15415,198 @@
                 "text-color": "#730000",
                 "text-halo-color": "#FFD37F",
                 "text-halo-width": 1.06667
+            }
+        },
+        {
+            "id": "GEBAEUDE/HAUSNUMMER_P_HAUSNUMMER_P/label/STG_L18",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "HAUSNUMMER_P_HAUSNUMMER_P",
+            "minzoom": 17,
+            "maxzoom": 18,
+            "layout": {
+                "text-font": [
+                    "Arial Regular"
+                ],
+                "text-size": 9.33333,
+                "text-anchor": "left",
+                "text-offset": [
+                    0.142857,
+                    0
+                ],
+                "text-rotate": {
+                    "property": "_label_angle5",
+                    "default": 0,
+                    "stops": [
+                        [{"zoom": 17, "value": 0}, 0],
+                        [{"zoom": 18, "value": 0}, 0]
+                    ]
+                },
+                "text-field": "{_name5}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#B36B6B"
+            }
+        },
+        {
+            "id": "GEBAEUDE/HAUSNUMMER_P_HAUSNUMMER_P/label/STG_L19",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "HAUSNUMMER_P_HAUSNUMMER_P",
+            "minzoom": 18,
+            "maxzoom": 19,
+            "layout": {
+                "text-font": [
+                    "Arial Regular"
+                ],
+                "text-size": 10.6667,
+                "text-anchor": "left",
+                "text-offset": [
+                    0.125,
+                    0
+                ],
+                "text-rotate": {
+                    "property": "_label_angle4",
+                    "default": 0,
+                    "stops": [
+                        [{"zoom": 17, "value": 0}, 0],
+                        [{"zoom": 18, "value": 0}, 0]
+                    ]
+                },
+                "text-field": "{_name4}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#B36B6B"
+            }
+        },
+        {
+            "id": "GEBAEUDE/HAUSNUMMER_P_HAUSNUMMER_P/label/STG_L20",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "HAUSNUMMER_P_HAUSNUMMER_P",
+            "minzoom": 19,
+            "layout": {
+                "text-font": [
+                    "Arial Regular"
+                ],
+                "text-size": 12,
+                "text-anchor": "left",
+                "text-offset": [
+                    0.111111,
+                    0
+                ],
+                "text-rotate": {
+                    "property": "_label_angle3",
+                    "default": 0,
+                    "stops": [
+                        [{"zoom": 17, "value": 0}, 0],
+                        [{"zoom": 18, "value": 0}, 0]]
+                },
+                "text-field": "{_name3}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#B36B6B"
+            }
+        },
+        {
+            "id": "GEBAEUDE/HAUSNUMMER_P_HAUSNUMMER_P/label/HNR_L19",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "HAUSNUMMER_P_HAUSNUMMER_P",
+            "minzoom": 18,
+            "maxzoom": 19,
+            "layout": {
+                "text-font": [
+                    "Arial Regular"
+                ],
+                "text-size": 12,
+                "text-anchor": "left",
+                "text-offset": [
+                    0.111111,
+                    0
+                ],
+                "text-rotate": {
+                    "property": "_label_angle2",
+                    "default": 0,
+                    "stops": [
+                        [{"zoom": 17, "value": 0}, 0],
+                        [{"zoom": 18, "value": 0}, 0]]
+                },
+                "text-field": "{_name2}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#803333",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 2
+            }
+        },
+        {
+            "id": "GEBAEUDE/HAUSNUMMER_P_HAUSNUMMER_P/label/HNR_L17-18",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "HAUSNUMMER_P_HAUSNUMMER_P",
+            "minzoom": 16,
+            "maxzoom": 18,
+            "layout": {
+                "text-font": [
+                    "Arial Regular"
+                ],
+                "text-size": 9.33333,
+                "text-anchor": "left",
+                "text-offset": [
+                    0.142857,
+                    0
+                ],
+                "text-rotate": {
+                    "property": "_label_angle1",
+                    "default": 0,
+                    "stops": [
+                        [{"zoom": 17, "value": 0}, 0],
+                        [{"zoom": 18, "value": 0}, 0]]
+                },
+                "text-field": "{_name1}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#803333",
+                "text-halo-color": "#FAFAFA",
+                "text-halo-width": 1.6
+            }
+        },
+        {
+            "id": "GEBAEUDE/HAUSNUMMER_P_HAUSNUMMER_P/label/HNR_L20",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "HAUSNUMMER_P_HAUSNUMMER_P",
+            "minzoom": 19,
+            "layout": {
+                "text-font": [
+                    "Arial Regular"
+                ],
+                "text-size": 14.6667,
+                "text-anchor": "left",
+                "text-offset": [
+                    0.0909091,
+                    0
+                ],
+                "text-rotate": {
+                    "property": "_label_angle",
+                    "default": 0,
+                    "stops": [
+                        [{"zoom": 17, "value": 0}, 0],
+                        [{"zoom": 18, "value": 0}, 0]]
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#803333",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 2.66667
             }
         },
         {
@@ -15393,7 +15624,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 16,
                 "text-field": "{_name17}",
@@ -15418,7 +15649,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 13.3333,
                 "text-field": "{_name16}",
@@ -15446,7 +15677,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 667,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 13.3333,
                 "text-field": "{_name15}",
@@ -15473,7 +15704,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 17.3333,
                 "text-field": "{_name5}",
@@ -15501,7 +15732,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 16,
                 "text-field": "{_name14}",
@@ -15528,7 +15759,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 20,
                 "text-field": "{_name7}",
@@ -15556,7 +15787,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 16,
                 "text-field": "{_name13}",
@@ -15583,7 +15814,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 20,
                 "text-field": "{_name6}",
@@ -15611,7 +15842,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 12.2667,
                 "text-field": "{_name12}",
@@ -15638,7 +15869,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 21.3333,
                 "text-field": "{_name4}",
@@ -15665,7 +15896,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 21.3333,
                 "text-field": "{_name3}",
@@ -15692,7 +15923,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 21.3333,
                 "text-field": "{_name8}",
@@ -15719,7 +15950,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 18.6667,
                 "text-field": "{_name17}",
@@ -15744,7 +15975,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 13.3333,
                 "text-field": "{_name16}",
@@ -15772,7 +16003,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 14.6667,
                 "text-field": "{_name15}",
@@ -15799,7 +16030,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 20,
                 "text-field": "{_name10}",
@@ -15827,7 +16058,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 16,
                 "text-field": "{_name14}",
@@ -15854,7 +16085,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 20,
                 "text-field": "{_name9}",
@@ -15882,7 +16113,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 17.3333,
                 "text-field": "{_name13}",
@@ -15910,7 +16141,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 16,
                 "text-field": "{_name12}",
@@ -15937,7 +16168,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 21.3333,
                 "text-field": "{_name7}",
@@ -15965,7 +16196,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 18.6667,
                 "text-field": "{_name11}",
@@ -15992,7 +16223,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 21.3333,
                 "text-field": "{_name6}",
@@ -16020,7 +16251,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 10.6667,
                 "text-letter-spacing": 0.1,
@@ -16048,7 +16279,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 13.3333,
                 "text-letter-spacing": 0.1,
@@ -16077,7 +16308,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 10.6667,
                 "text-letter-spacing": 0.1,
@@ -16105,7 +16336,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 13.3333,
                 "text-letter-spacing": 0.1,
@@ -16134,7 +16365,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1333,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 10.6667,
                 "text-letter-spacing": 0.1,
@@ -16162,7 +16393,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1333,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 13.3333,
                 "text-letter-spacing": 0.1,
@@ -16191,7 +16422,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 17.3333,
                 "text-field": "{_name11}",
@@ -16219,7 +16450,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 10.6667,
                 "text-letter-spacing": 0.1,
@@ -16248,7 +16479,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 16,
                 "text-field": "{_name3}",
@@ -16276,7 +16507,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 12,
                 "text-field": "{_name11}",
@@ -16302,7 +16533,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 10.6667,
                 "text-field": "{_name10}",
@@ -16330,7 +16561,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 12,
                 "text-field": "{_name9}",
@@ -16358,7 +16589,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 13.3333,
                 "text-field": "{_name8}",
@@ -16386,7 +16617,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 10.6667,
                 "text-field": "{_name7}",
@@ -16414,7 +16645,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 12,
                 "text-field": "{_name6}",
@@ -16442,7 +16673,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 16,
                 "text-field": "{_name5}",
@@ -16470,7 +16701,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 13.3333,
                 "text-field": "{_name4}",
@@ -16498,7 +16729,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 13.3333,
                 "text-field": "{_name2}",
@@ -16526,7 +16757,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 8,
                 "text-field": "{_name1}",
@@ -16554,7 +16785,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 8,
                 "text-field": "{_name1}",
@@ -16583,7 +16814,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1333,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 8,
                 "text-field": "{_name}",
@@ -16611,7 +16842,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 133,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 8,
                 "text-field": "{_name}",
@@ -16639,7 +16870,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 14.6667,
                 "text-field": "{_name7}",
@@ -16664,7 +16895,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 16,
                 "text-field": "{_name6}",
@@ -16691,7 +16922,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 18.6667,
                 "text-field": "{_name5}",
@@ -16718,7 +16949,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 16,
                 "text-field": "{_name4}",
@@ -16745,7 +16976,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 21.3333,
                 "text-field": "{_name3}",
@@ -16772,7 +17003,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1333,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 13.3333,
                 "text-letter-spacing": 0.1,
@@ -16800,7 +17031,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 13.3333,
                 "text-letter-spacing": 0.1,
@@ -16828,7 +17059,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 20,
                 "text-field": "{_name9}",
@@ -16856,7 +17087,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 10.6667,
                 "text-letter-spacing": 0.1,
@@ -16884,7 +17115,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 13.3333,
                 "text-letter-spacing": 0.1,
@@ -16913,7 +17144,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1333,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 10.6667,
                 "text-letter-spacing": 0.1,
@@ -16941,7 +17172,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1333,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 13.3333,
                 "text-field": "{_name}",
@@ -16968,7 +17199,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Italic"
+                    "Corbel Italic"
                 ],
                 "text-size": 18.6667,
                 "text-field": "{_name17}",
@@ -16993,7 +17224,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 13.3333,
                 "text-field": "{_name16}",
@@ -17021,7 +17252,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 14.6667,
                 "text-field": "{_name15}",
@@ -17048,7 +17279,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 20,
                 "text-field": "{_name10}",
@@ -17076,7 +17307,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Regular"
+                    "Corbel Regular"
                 ],
                 "text-size": 16,
                 "text-field": "{_name14}",
@@ -17104,7 +17335,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 17.3333,
                 "text-field": "{_name13}",
@@ -17132,7 +17363,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1333,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 10.6667,
                 "text-letter-spacing": 0.1,
@@ -17160,7 +17391,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 400,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 21.3333,
                 "text-field": "{_name8}",
@@ -17188,7 +17419,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 16,
                 "text-field": "{_name12}",
@@ -17215,7 +17446,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 21.3333,
                 "text-field": "{_name7}",
@@ -17243,7 +17474,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 18.6667,
                 "text-field": "{_name11}",
@@ -17270,7 +17501,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Corbel-Bold"
+                    "Corbel Bold"
                 ],
                 "text-size": 21.3333,
                 "text-field": "{_name6}",
@@ -17298,7 +17529,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 10.6667,
                 "text-letter-spacing": 0.1,
@@ -17326,7 +17557,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 13.3333,
                 "text-letter-spacing": 0.1,
@@ -17355,7 +17586,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 10.6667,
                 "text-letter-spacing": 0.1,
@@ -17383,7 +17614,7 @@
                 "symbol-placement": "line",
                 "symbol-spacing": 1000,
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 13.3333,
                 "text-letter-spacing": 0.1,
@@ -17409,7 +17640,7 @@
             "minzoom": 19,
             "layout": {
                 "text-font": [
-                    "Arial-Bold"
+                    "Arial Bold"
                 ],
                 "text-size": 10.6667,
                 "text-field": "{_name}",

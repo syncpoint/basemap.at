@@ -75,7 +75,26 @@ mbgl: { class: 'ParseStyle',
 (... many more lines ...) 
 ```
 
-Please find a [corrected version of the style file](styles/root.json) in our repository. This file also contains modifications required to meet all path values we will use for the tile server:
+Please find a [corrected version of the style file](styles/root.json) in our repository. The changes reflect
+* renaming a duplicate style layer ```STRASSENNETZ/BRUECKE/GIP_OUTSIDE_BAUWERK_L_BRÜCKE/112111/0```
+* renaming a duplicate layer ```STRASSENNETZ/BRUECKE/GIP_OUTSIDE_BAUWERK_L_BRÜCKE/112111/1```
+* fixing 
+  ```
+  mbgl: { class: 'ParseStyle',
+  severity: 'WARNING',
+  text: 'function value must specify stops' }
+  ```
+  by adding
+  ```
+  "stops": [
+        [{"zoom": 17, "value": 0}, 0],
+        [{"zoom": 18, "value": 0}, 0]
+    ]
+  ```
+
+
+
+This file also contains modifications required to meet all path values we will use for the tile server:
 
 ```JSON
     "sprite": "/sprite",
