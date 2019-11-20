@@ -171,7 +171,7 @@ Open your favorite browser and navigate to __http://localhost:8080__ (we have ma
 
 ![TileServer GL Dashboard](images/tileserver-gl.png)
 
-Click on the __Vector__ link on the dashboard in order to view your styled vector tiles. Depending on the correctness of the metadata in the VTPK file and the style rules (especially ```minzoom``` and ```maxzoom```) your viewpoint my be out of scope and you will only see a white page. Please change the zoom level and the coordinates in the browser url accordingly.
+Click on the __Vector__ link on the dashboard in order to view your styled vector tiles. Depending on the correctness of the metadata in the VTPK file and the style rules (especially ```minzoom``` and ```maxzoom```) your viewpoint may be out of scope and you will only see a white page. Please change the zoom level and the coordinates in the browser url accordingly.
 
 The result is beautiful and available offline:
 
