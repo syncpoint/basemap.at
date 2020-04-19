@@ -1,4 +1,4 @@
-# Hosting basemap.at vector tiles offline
+# Hosting basemap.at Offline Vector Tiles
 Austria's government provides a lot of open data on its [data.gv.at- Open Data Österreich](https://www.data.gv.at) portal. One of the treasures that can be found there are offline vector tiles for [basemap.at Verwaltungsgrundkarte Österreich](https://www.data.gv.at/katalog/dataset/b694010f-992a-4d8e-b4ab-b20d0f037ff0). 
 
 This readme will guide you through all steps required in order to host __basemap.at__ vector tiles on your private server.
@@ -6,6 +6,11 @@ This readme will guide you through all steps required in order to host __basemap
 Since the tiles provided are contained in an ESRI Vector Tile Package (VTPK) and this container format cannot be served by open source tile servers we have written [OpenVTPK](https://github.com/syncpoint/openvtpk) in order to repackage the tiles into an MBTiles container.
 
 Please read our detailed instructions on how to use [OpenVTPK](https://github.com/syncpoint/openvtpk). After you have repackaged the vector tiles continue here.
+
+## Updated versions of basemap.at Offline Vector Tiles
+### March 19th, 2020
+The metadata has been updated and got a new timestamp. After a short analysis we could not find any improvement regarding the broken ```root.json``` style.
+It's worth noting that the __basemap.at__ Offline vector Tiles are still labeled with the _Beta_ tag.
 
 ## Prerequisits
 
